@@ -1,0 +1,49 @@
+body{
+font-family: Comic Sans MS, cursive;
+background: linear-gradient(45deg, red, yellow, purple);
+padding:20px;
+}
+
+h1{
+background:black;
+color:lime;
+font-size:40px;
+text-align:right;
+padding:10px;
+}
+
+.status{
+background:orange;
+padding:20px;
+margin:20px 0;
+border:8px dashed blue;
+box-shadow:10px 10px 0px green;
+transform:rotate(-2deg);
+font-size:20px;
+}
+
+button{
+padding:10px 20px;
+background:cyan;
+color:red;
+border:3px solid black;
+font-size:20px;
+margin:10px;
+cursor:pointer;
+}
+
+.warning{
+color:white;
+background:red;
+padding:10px;
+font-size:22px;
+}
+
+#message{
+margin-top:20px;
+font-size:24px;
+color:black;
+background:yellow;
+padding:15px;
+border:5px dotted purple;
+}

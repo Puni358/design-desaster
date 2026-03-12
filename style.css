@@ -1,0 +1,64 @@
+body{
+font-family: Comic Sans MS, cursive;
+background: linear-gradient(90deg, red, yellow, purple);
+padding:20px;
+text-align:left;
+}
+
+/* Ugly title */
+h1{
+color:lime;
+font-size:40px;
+background:black;
+padding:10px;
+text-align:right;
+}
+
+/* Container still exists but messy */
+.restaurant-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:flex-start;
+gap:40px;
+}
+
+/* Restaurant cards look chaotic */
+.restaurant-container div{
+background:orange;
+width:300px;
+padding:5px;
+border:5px dashed blue;
+box-shadow:10px 10px 0px green;
+transform:rotate(-3deg);
+}
+
+/* Images oversized and weird */
+img{
+width:280px;
+border:8px solid pink;
+}
+
+/* Buttons ugly */
+a{
+display:inline-block;
+margin-top:5px;
+padding:3px 6px;
+background:cyan;
+color:red;
+text-decoration:underline;
+font-size:22px;
+}
+
+/* Huge misleading discount */
+.discount{
+color:yellow;
+background:red;
+font-size:50px;
+font-weight:bold;
+}
+
+.tiny{
+font-size:6px;
+color:white;
+background:black;
+}

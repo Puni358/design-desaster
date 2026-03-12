@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Track Order</title>
+<link rel="stylesheet" href="tracking.css">
+</head>
+
+<body>
+
+<h1>TRACK YOUR ORDER???</h1>
+
+<div class="status">
+<p>✔ Order Confirmed</p>
+<p>❌ Order Cancelled</p>
+<p>⏳ Preparing Food</p>
+<p>🚗 Driver Assigned: Raj</p>
+<p>📍 Driver Location: Somewhere near you maybe</p>
+<p>⏱ Estimated Delivery: 25 mins or 2 hours</p>
+</div>
+
+<h2>Total Amount: ₹320 (maybe)</h2>
+
+<button onclick="payNow()">Pay Now</button>
+<button onclick="payNow()">Pay Again</button>
+
+<p class="warning">⚠ If payment fails your order might still be charged</p>
+
+<p id="message"></p>
+
+<script>
+function payNow(){
+document.getElementById("message").innerHTML =
+"✅ Payment Successful! <br> ❌ Order not placed. Please try again. <br> ⚠ Amount might still be deducted.";
+}
+</script>
+
+</body>
+</html>
